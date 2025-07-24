@@ -19,31 +19,26 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+  My journey into tech started after more than a decade working in the education field. I hold a{" "}
+  <span className="font-medium">Bachelor’s and Master’s degree in Education and English</span>, and spent over 10 years as an{" "}
+  <span className="font-medium">ESL instructor, translator, proofreader, and curriculum developer</span>. While I deeply valued that work, I eventually became drawn to the world of technology and began learning web development on my own.
+</p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+<p className="mb-3">
+  Eager to grow further, I enrolled in <span className="font-medium">Atlas School</span>, a full-time software engineering program where I spent 19 months in an intense, project-based, peer-driven environment. There, I gained hands-on experience with everything from{" "}
+  <span className="font-medium">C programming, Python, and databases</span> to{" "}
+  <span className="font-medium">frontend technologies, React, Next.js, mobile development, and DevOps</span>. There, I also worked as a{" "}
+  <span className="font-medium">student tutor</span>, leading live coding sessions and helping peers through manual reviews and debugging.
+</p>
+
+<p className="mb-3">
+  Most recently, I’ve been working as a <span className="font-medium">web developer at Victory Church</span>, where I’ve had the opportunity to build real-world tools that streamline internal processes, automate workflows, and support multi-department collaboration, not to mention website management. I work across the stack — frontend, backend, and DevOps — and I truly enjoy bringing ideas to life through code.
+</p>
+
+<p>
+  I’m excited to keep growing as a developer and continue exploring this fast-moving field of technology. Whether I’m building a form, connecting an API, or improving performance, I love solving problems that make people’s lives easier.
+</p>
+
     </motion.section>
   );
 }
