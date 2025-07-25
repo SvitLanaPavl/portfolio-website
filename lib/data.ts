@@ -11,10 +11,11 @@ import atlasQAImg from "@/public/atlasQAImg.png";
 import kanbanImg from "@/public/kanbanImg.png";
 import todoImg from "@/public/todoImg.png";
 import shellImg from "@/public/shellImg.png";
-import canvasImg from "@/public/canvasImg.png";
 import smileImg from "@/public/smileImg.png";
 import airbnbImg from "@/public/airbnbImg.png";
 import tulsaImg from "@/public/tulsaImg.png";
+import dashboardImg from "@/public/dashboardImg.png";
+import natureImg from "@/public/natureImg.png";
 
 export const links = [
   {
@@ -87,12 +88,21 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Victory Forms Hub",
+    description:
+      "Centralized platform for multiple registration forms used across Victory Church. Includes dynamic workflows for guest signups, baptism automation, and receipt submission. Supports Twilio-based SMS communication, Microsoft Graph email confirmations, and admin dashboards for internal tracking.",
+    tags: ["Next.js", "Tailwind CSS", "Supabase", "Twilio", "Microsoft Graph API", "NextAuth", "UI/UX"],
+    imageUrl: dashboardImg,
+    url: "https://forms.victory.com",
+  },
     {
       title: "Baptism Automation",
       description:
         "An automated workflow for managing baptism signups. Includes SMS communication via Twilio, Excel sheet population via Microsoft Graph API, and dynamic certificate generation sent directly to the printer.",
       tags: ["Next.js", "Tailwind CSS", "Twilio", "Microsoft Graph API", "PDF Generation", "Azure"],
       imageUrl: baptismImg,
+      url: "https://forms.victory.com/baptism-signup",
     },
     {
       title: "Receipt Submission",
@@ -100,19 +110,22 @@ export const projectsData = [
         "A secure internal app for uploading receipt data, with Microsoft account authentication, backend storage, and email confirmation. Includes real-time accounting dashboard powered by Supabase.",
       tags: ["Next.js", "NextAuth", "Supabase", "Tailwind CSS", "Microsoft Graph", "Email Automation"],
       imageUrl: receiptImg,
+      url: "https://forms.victory.com/submit-receipt",
     },
     {
       title: "Victory Youth Website",
       description:
         "Modern marketing site for Victory Youth built in collaboration with designers. Fully responsive, themed UI built with Tailwind and optimized for mobile.",
-      tags: ["Next.js", "Tailwind CSS", "UI/UX", "Responsive Design", "Collaboration"],
+      tags: ["Next.js", "Tailwind CSS", "UI/UX", "Responsive Design", "Collaboration", "Supabase", "Microsoft Graph", "Email Automation"],
       imageUrl: youthImg,
+      url: "https://youth.victory.com",
     },
     {title: "Trove",
     description:
-      "Trove is a financial literacy app helping families manage allowances and build smart spending habits. It includes a parent-facing web app and a mobile experience for children. Developed using modern tooling with seamless auth and cross-platform design.",
+      "Trove is a financial literacy app helping families manage allowances and build smart spending habits. It includes a parent-facing web app and a mobile experience for children. Developed using modern tooling with auth and cross-platform design.",
     tags: ["Next.js", "React", "Tailwind CSS", "React Native", "NextAuth", "Prisma", "Vercel"],
     imageUrl: troveImg,
+    url: "https://trove-capstone.vercel.app/",
     },
     {
     title: "Cinema Guru",
@@ -120,6 +133,7 @@ export const projectsData = [
       "Cinema Guru is a movie discovery app built with Next.js and Supabase. It allows users to filter, favorite, and save movies to a Watch Later list. Features include activity tracking, responsive UI, and server-side data fetching.",
     tags: ["Next.js", "Supabase", "Tailwind CSS", "NextAuth", "React"],
     imageUrl: cinemaGuruImg,
+    url: "https://atlas-cinema-guru-virid.vercel.app",
   },
   {
     title: "Atlas Q&A",
@@ -127,6 +141,7 @@ export const projectsData = [
       "A full-stack Q&A platform where users can log in, ask questions, vote, and join discussions. It features topic creation, real-time updates, and database integration, fully deployed on Vercel.",
     tags: ["Next.js", "Supabase", "Tailwind CSS", "React"],
     imageUrl: atlasQAImg,
+    url: "https://atlas-nextjs-spavlovska.vercel.app/",
   },
   {
     title: "Atlas Kanban Board",
@@ -134,6 +149,7 @@ export const projectsData = [
       "Trello-style Kanban board featuring drag-and-drop, local state persistence, and advanced Redux techniques. Built with Dnd Kit and styled for responsive usability.",
     tags: ["React", "Redux", "Dnd Kit", "Tailwind CSS"],
     imageUrl: kanbanImg,
+    url: "https://atlas-react-redux-spavlovska.netlify.app/",
   },
   {
     title: "To-Do App",
@@ -141,6 +157,7 @@ export const projectsData = [
       "A classic to-do list built in Vanilla JavaScript with task input, filtering, and DOM manipulation. Clean UI and accessible layout.",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: todoImg,
+    url: "https://svitlanapavl.github.io/ToDoList/",
   },
   {
     title: "Simple Shell",
@@ -148,13 +165,15 @@ export const projectsData = [
       "A command-line interpreter built in C that mimics UNIX shell behavior. Handles command parsing, execution, and signal handling in a low-level system programming environment.",
     tags: ["C", "UNIX", "GCC", "GNU"],
     imageUrl: shellImg,
+    url: "https://github.com/SvitLanaPavl/holbertonschool-simple_shell?tab=readme-ov-file",
   },
   {
     title: "America's Natural Canvas",
     description:
-      "An interactive exhibit site that filters and displays U.S. states by climate. Features include dynamic range filtering with Chart.js and Firebase backend.",
+      "Interactive digital exhibit built from scratch, allowing users to search, filter, and explore U.S. states by climate type. The experience showcases America's natural beauty with dynamic visuals powered by Chart.js and Firebase. Created in partnership with Christopher Stephens.",
     tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Firebase", "Chart.js", "Visily", "Responsive Web Design"],
-    imageUrl: canvasImg,
+    imageUrl: natureImg,
+    url: "https://america-s-natural-canvas.web.app/",
   },
   {
     title: "Smiling School",
@@ -162,6 +181,7 @@ export const projectsData = [
       "Three-stage project evolving from a static HTML/CSS site to a fully dynamic, API-driven experience. Built from Figma designs and progressively enhanced with Bootstrap and JavaScript.",
     tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Figma", "JQuery", "Responsive Web Design"],
     imageUrl: smileImg,
+    url: "https://svitlanapavl.github.io/atlas-smiling-school",
   },
   {
     title: "Airbnb Console Clone",
@@ -169,6 +189,7 @@ export const projectsData = [
       "A Python-based CLI tool for creating, updating, and managing Airbnb-style data models. Supports storage persistence via JSON and includes unit tests.",
     tags: ["Python", "JSON", "Unit Testing"],
     imageUrl: airbnbImg,
+    url: "https://github.com/SvitLanaPavl/holbertonschool-AirBnB_clone"
   },
   {
     title: "Winter In Tulsa",
@@ -176,6 +197,7 @@ export const projectsData = [
       "Festive tourism microsite promoting winter events in Tulsa, designed with Bootstrap and custom JS interactions. Focused on engaging visuals and accessibility.",
     tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Figma"],
     imageUrl: tulsaImg,
+    url: "https://svitlanapavl.github.io/Hacksprint-2023/",
   },
 ];
 
