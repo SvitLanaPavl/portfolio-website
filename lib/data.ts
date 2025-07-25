@@ -85,6 +85,30 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Feb 2016 – Mar 2022",
   },
+  {
+    title: "Public School English Teacher",
+    location: "Kyiv, Ukraine",
+    description:
+      "Taught English language and literature to school students. Developed engaging lesson plans and facilitated classroom instruction in English. Focused on communication, critical thinking, and cross-cultural awareness.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Sep 2012 – Jun 2014",
+  },
+  {
+    title: "Master of Arts in Philology",
+    location: "Kyiv National Linguistic University • Kyiv, Ukraine",
+    description:
+      "Graduated with honors in Philology, specializing in English, French, and foreign literature. Developed strong linguistic, analytical, and communication skills.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Sep 2011 – Jun 2012",
+  },
+  {
+    title: "Bachelor of Arts in Philology",
+    location: "Kyiv National Linguistic University • Kyiv, Ukraine",
+    description:
+      "Completed studies in English Philology and Pedagogy. Trained as a teacher of English language and literature, with emphasis on grammar, phonetics, and education methodology.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Sep 2007 – Jun 2011",
+  },
 ] as const;
 
 export const projectsData = [
